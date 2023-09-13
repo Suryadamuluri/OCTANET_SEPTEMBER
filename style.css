@@ -1,0 +1,175 @@
+html {
+  height: 100%;
+  width: 100%;
+  
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main input {
+  width: 200px;
+  height: 30px;
+  display: flex;
+}
+
+a:visited {
+  color: gray;
+  pointer-events: none;
+}
+
+.header {
+  text-align: center;
+  color: green;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(100px, 1fr));
+  background-image: url(https://img.freepik.com/free-vector/abstract-technological-background_23-2148897676.jpg);
+  row-gap: 20px;
+  column-gap: 20px;
+  margin-bottom: 10px;
+}
+
+.container div {
+  text-align: center;
+  font-family: Helvetica;
+  color: blanchedalmond;
+  border: solid;
+  border-radius: 30px;
+  border-width: 0px;
+  margin-bottom: 40px;
+}
+
+.second {
+  background-color: #87ceeb;
+}
+
+.four-six {
+  background-color: #366BA1;
+}
+
+div h2 {
+  color: black;
+}
+
+
+
+.footer {
+  display: flex;
+  flex-direction: columns;
+  font-family: arial;
+  font-size: 20px;
+  justify-content: space-between;
+  align-items: center;
+  overflow:hidden;
+}
+
+.sub img {
+  width: 80px;
+  height: 70px;
+}
+
+.sub {
+  text-align: center;
+  align-items: top;
+}
+
+.sign {
+  text-align: center;
+ background-color:lightslategrey;
+}
+
+.sign input {
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+  border:none;
+}
+
+.sign button {
+  width: 250px;
+  height: 40px;
+  background-color: green;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.lower button {
+  width: 200px;
+  height: 30px;
+  background-color: deepskyblue;
+}
+
+.subject{
+  display: grid;
+  grid-template-columns: repeat(3, minmax(300px, 1fr));
+  row-gap:40px;
+  column-gap:30px;
+  
+}
+.title{
+  text-align:center;
+  color:#87ceeb;
+}
+.title input{
+  height:40px;
+  width:200px;
+  border:none
+  border-radius:2px;
+}
+.pic{
+  width:100%;
+  height:200px;
+}
+.descrption{
+  text-align:center;
+}
+.index3{
+  background-color:white;
+}
+.descrption button{
+  width:150px;
+  height:50px;
+  color:black;
+  background-color:green;
+  border:none;
+  border-radius:10px;
+  margin-bottom:10px;
+  box-shadow:none;
+}
+button:hover{
+  background-color:#00ACEE;
+}
+.subject div{
+  background-color:gray;
+  border:none;
+  border-radius:10px;
+  box-shadow:none;
+  display:block;
+  text-shadow : none;
+}
+@media only screen and (max-width: 600px) {
+  .container{
+    display:grid;
+    grid-template-columns:1fr;
+  }
+  .div head3{
+    text-align:center;
+  }
+}
+@media only screen and (max-width: 300px) 
+{
+.main input {
+  width:0px;
+  height: 0px;
+}
+
+}
